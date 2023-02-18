@@ -11,6 +11,9 @@
 
     </data>
 
+    <!--    ConstraintLayout allows me to create large and complex layouts with a flat view hierarchy (no nested view groups),
+   So I prefer to have the items place set in place but still adjust with the size of the screen -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

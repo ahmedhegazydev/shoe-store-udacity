@@ -5,7 +5,10 @@
     tools:context=".ShoesListingsFragment">
 
 
-    <RelativeLayout
+    <!--    ConstraintLayout allows me to create large and complex layouts with a flat view hierarchy (no nested view groups),
+ So I prefer to have the items place set in place but still adjust with the size of the screen -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -27,12 +30,12 @@
 
         <ScrollView
             android:id="@+id/shoeListScrollView"
-            android:layout_width="383dp"
-            android:layout_height="569dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp">
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
             <LinearLayout
                 android:id="@+id/list"
@@ -44,5 +47,5 @@
 
         </ScrollView>
 
-    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
