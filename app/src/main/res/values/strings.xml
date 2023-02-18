@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="title_login">Fragment Login</string>
+
+<!--    For -->
+    <string name="shoe_name">Shoe Name</string>
+    <string name="enter_shoe_name">Enter Shoe Name</string>
+    <string name="description">Description</string>
+    <string name="company_name">Company Name</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="enter_company_name">Enter Company Name</string>
+    <string name="enter_shoe_size">Enter Shoe Size</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="logout_menu_item">Logout</string>
+
+
+<!--    For CustomShoeLayout-->
+    <string name="shoe_name_hint">Shoe Name</string>
+    <string name="company_name_hint">Company Name</string>
+    <string name="shoe_size_hint">Shoe Size</string>
+    <string name="description_hint">Description</string>
+
+</resources>
